@@ -36,7 +36,7 @@ jobs:
     - name: installing surge 
       run: npm install -g surge
     - name: Run surge
-      run: surge ./build tabishalibutt.surge.sh --token ${{ secrets.NAME }}  
+      run: surge ./build http://tabishali.surge.sh/ --token ${{ secrets.NAME }}  
      
      
     # Runs a single command using the runners shell
